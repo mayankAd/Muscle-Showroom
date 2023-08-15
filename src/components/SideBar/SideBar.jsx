@@ -1,42 +1,20 @@
 import React from 'react'
+import Title from '../title/title'
+import Products from '../products/Products'
+import Footer_text from '../footer_text/Footer_text'
+import Footer_logo from '../footer_logo/Footer_logo'
+import styles from './SideBar.module.css'
 
 const SideBar = () => {
   return (
-    <>
-    <div className="logo">
-    <img src="" alt="" />
-    <div className="website_title">
-        <a href='#'>Muscle Showroom</a>
+    <div className={`${styles.container}`}>
+   <Title/>
+   <hr></hr>
+    <Products/>
+    <hr></hr>
+    <Footer_text/>
+    <Footer_logo/>
     </div>
-    </div>
-    <div className="types">
-        <a href="#">ACCESSORIES</a>
-        <a href="#">CLOTHING</a>
-        <a href="#">SUPPLEMENTS</a>
-        <a href="#">EQUIPMENTS</a>
-        <a href="#">YOGA</a>
-        <a href="#">DIET</a>
-        <a href="#">CLOTHING</a>
-        <a href="#">SALE</a>
-        <a href="#">ONLINE TRAINING</a>
-        <a href="#">BRANDS</a>
-        <a href="#">VITAMINS</a>
-        <a href="#">ESSENTIALS</a>
-    </div>
-    <div className="footer_text">
-    <a href="#">About Us</a>
-    <a href="#">Visit Us</a>
-    <a href="#">Blog</a>
-    <a href="#">Shipping & Privacy</a>
-    </div>
-    <div className="footer_logos">
-    <a href="#">f</a>
-    <a href="#">t</a>
-    <a href="#">i</a>
-    <a href="#">y</a>
-    <a href="#">s</a>
-    </div>
-    </>
   )
 }
 

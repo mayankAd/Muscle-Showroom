@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: column;
+
+    background-color: black;
+    width: 310px;
+    height: 100vh;
+    position: fixed;
+}
+
+hr{
+    margin-left:30px;
+    margin-right: 100px;
+}

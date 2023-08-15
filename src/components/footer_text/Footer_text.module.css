@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.container a{
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 800;
+}
