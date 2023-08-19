@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: red;
+    width: 100%;
+    height: 1000px;
+    padding-left: 310px;
+    padding-top: 100px;
+    background-color: rgb(25, 25, 25);
+}
+
+.container h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+}
+
+.categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    background-color: aquamarine;
+    gap: 50px;
+}
+
+.image_container{
+    height: 300px;
+    background-color: blueviolet;
+}
