@@ -12,3 +12,7 @@
     font-size: 17px;
     font-weight: 800;
 }
+
+.container a:hover{
+    color: rgb(255, 255, 255);
+}
