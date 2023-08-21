@@ -1,3 +1,11 @@
+.main{
+  height: 100%;
+  width: 100%;
+  background-color: brown;
+  position: relative;
+}
+
+
 .container {
   display: flex;
   flex-direction: column;
@@ -5,6 +13,10 @@
   height: 100%;
   padding-top: 150px;
   padding-left: 50px;
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  padding-top: 200px;
 }
 
 .container h1 {
@@ -31,7 +43,15 @@
   margin-top: 50px;
 }
 
-.container button:hover{
+.container button:hover {
   background-color: white;
   color: black;
 }
+
+.main video{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+}
+

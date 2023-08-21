@@ -8,8 +8,7 @@ import Navbar from '../navbar/Navbar'
 const Box_slide = () => {
   return (
     <div className={`${styles.container}`}>
-        <Navbar style = {{zIndex:'999'}}/>
-        <Box_slide_items style = {{zIndex:'999'}}/>
+        <Box_slide_items />
     </div>
   )
 }
