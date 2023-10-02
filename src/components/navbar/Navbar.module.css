@@ -4,6 +4,7 @@
     top: 40px;
     position: fixed;
     z-index: 99999;
+    gap: 20px;
 }
 
 .container button{
