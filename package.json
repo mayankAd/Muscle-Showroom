@@ -1,6 +1,6 @@
 {
   "name": "muscle-showroom",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "homepage": "https://mayankAd.github.io/Muscle-Showroom",
   "type": "module",
