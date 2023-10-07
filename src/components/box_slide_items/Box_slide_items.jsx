@@ -5,9 +5,7 @@ import Navbar from "../navbar/Navbar";
 const Box_slide_items = () => {
   return (
     <div className={`${styles.main}`}>
-      <video autoPlay muted loop id="myVideo">
-        <source src="public/background_video.mp4" type="video/mp4" />
-      </video>
+      <img src="images/gym3.jpg" alt="" />
 
       <div className={`${styles.container}`}>
         
