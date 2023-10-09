@@ -15,7 +15,7 @@ const Products_page = () => {
             <Product_box/>
             <Product_box/>
         </div>
-        <p><br /><br /><br />working in progress....</p>
+        <p><br /><br /><br />work in progress....</p>
         
     </div>
   )
